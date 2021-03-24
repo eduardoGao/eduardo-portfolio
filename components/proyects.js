@@ -16,7 +16,7 @@ function Proyects() {
       <Proyect
         icon='💎'
         title='Minimal Cripto'
-        description='Minimal Cripto, la web minimalista para visualizar tus crptomonedas Favoritas. Información actualiazda al momento gracias a la API de Coin Gecko'
+        description='Minimal Cripto, la web minimalista para visualizar tus criptomonedas favoritas. Información actualizada al momento gracias a la API de Coin Gecko.'
         stack={['React.js', 'CoinGecko API', 'Styled Components', 'Webpack', 'Babel']}
         anchor="https://minimalcripto.netlify.app"
       />
@@ -30,7 +30,7 @@ function Proyects() {
       <Proyect
         icon='🦠'
         title='Covid Mx'
-        description='Covid Mx muestra el estado actual del Covid 19 en México, estadísticas por edad, género y estados de la república'
+        description='Covid Mx muestra el estado actual del Covid 19 en México, estadísticas por edad, género y estados de la república.'
         stack={['React.js', 'Sass', 'Recharts', 'Webpack', 'Babel']}
         anchor="http://covitmx.info/"
       />
