@@ -14,3 +14,16 @@ a {
 * {
   box-sizing: border-box;
 }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+:root {
+  --color-primary: #D923FF;
+  --color-secondary: #A231F1;
+  --color-gray: #F5F5F5;
+  --color-white: #FFFFFF;
+  --color-dark: #616161;
+  --color-light: #FFE4F8;
+}

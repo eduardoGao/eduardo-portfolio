@@ -1,0 +1,92 @@
+.container {
+  margin-top: 12px;
+}
+
+.card {
+  background: var(--color-white);
+  max-width: 340px;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 400px;
+  padding: 16px;
+  transition: .2s;
+}
+.card:hover {
+  box-shadow: 0px 0px 24px rgba(0, 0, 0.1, 0.3);
+  
+
+}
+
+.icon {
+  background: var(--color-gray);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+.description {
+  font-size: 13px;
+  color: var(--color-dark);
+  line-height: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.stack {
+  /* background: var(--color-gray);
+  border-radius: 8px; */
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--color-secondary);
+  /* padding: 4px 8px; */
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.stack span {
+  margin: 4px;
+  text-align: center;
+  background: var(--color-gray);
+  border-radius: 8px;
+  padding: 4px 6px;
+}
+
+.button {
+  background: linear-gradient(180deg, #D923FF 10.55%, #A231F1 110.55%);
+  color: var(--color-white);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: inherit;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+
+@media (min-width: 768px) {
+  .container {
+    /* background: chartreuse; */
+    display: flex;
+    max-width: 730px;
+    margin: 16px auto;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    max-width: 340px;
+    margin: 16px auto;
+  }
+}
