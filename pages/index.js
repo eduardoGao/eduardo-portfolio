@@ -19,7 +19,7 @@ export default function Home() {
             </div>
             <div>
               <h1 className={styles.name}>Eduardo Díaz</h1>
-              <h2 className={styles.job}>Frontend Developer & UI Designer</h2>
+              <h2 className={styles.job}>Software Developer</h2>
             </div>
             <div className={styles.social}>
               <a href="https://linkedin.com/in/eduardo-esaú-díaz-31757912a" target="_blank" rel="noopener noreferrer"><img src="/linkedinW.svg" alt=""/></a>
